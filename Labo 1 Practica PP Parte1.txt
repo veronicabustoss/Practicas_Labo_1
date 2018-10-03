@@ -1,0 +1,49 @@
+Desarrollar en ANSI C:
+Una empresa necesita administrar los almuerzos de su comedor en planta, y para ello se deberá realizar un programa de acuerdo a lo siguiente:
+
+	Menu:
+•	Código de menu (autoincremental)
+•	Descripción (máximo 51 caracteres)  Validar
+•	Importe (debe ser mayor a cero)  Validar
+
+	Empleados:
+•	Legajo (autoincremental)
+•	Apellido (máximo 51 caracteres) Validar
+•	Nombre (máximo 51 caracteres) Validar
+•	sexo Validar
+•	salario (debe ser mayor a cero) Validar
+•	fecha de ingreso (el dia, mes y año debe estar en los rangos correspondientes) Validar
+
+Almuerzo:
+•	Codigo de almuerzo (autoincremental)
+•	Codigo de menu (debe existir) Validar
+•	Legajo de empleado (debe existir) Validar
+•	Fecha (el dia, mes y año debe estar en los rangos correspondientes) Validar
+
+MENUES: 
+A)	Altas: No es necesario el ingreso de todos los menues.
+B)	Modificar: Se ingresará el código de menu, permitiendo en un submenú modificar:
+•	Descripción
+•	importe
+B)	Baja:  Se ingresará el código de menu y se realizará una baja lógica.
+C)	Listar: Hacer un único listado de todos los menues ordenados por importe (descendente) y descripcion (ascendente).
+
+EMPLEADOS: 
+A)	Altas: No es necesario el ingreso de todos los empleados.
+B)	Modificar: Se ingresará el Código de Empleado, permitiendo en un submenú modificar:
+•	Apellido
+•	Nombre
+•	Sexo
+•	Salario
+•	Fecha de ingreso
+B)	Baja:  Se ingresará el Código de Empleado y se realizará una baja lógica.
+C)	Listar: Hacer un único listado de todos los Empleados ordenados por apellido (ascendente) y nombre (ascendente).
+
+ALMUERZOS: Se dará de alta cada ocurrencia de Almuerzo, relacionando Menu – Empleado, Fecha y Codigo de Almuerzo.
+
+
+NOTAS: 
+I.	Se deberá desarrollar bibliotecas por cada entidad, las cuales contendrán las funciones Alta, Baja, Modificar y Listar. 
+II.	Las validaciones deberán estar en una biblioteca aparte. 
+III.	Tener en cuenta que no se podrá ingresar a los casos Modificar, Baja y Listar; sin antes haber realizado al menos un Alta (utilizar banderas).
+IV.	El código deberá tener comentarios con la documentación de cada una de las funciones y respetar las reglas de estilo de la cátedra.
