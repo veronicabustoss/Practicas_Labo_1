@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1544550330 source:e:\practica_final_2018\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"reglasNegocio.h"
+	"utn.h"
+	"LinkedList.h"
+	"Parser.h"
+
+1544550252 e:\practica_final_2018\reglasnegocio.h
+	"LinkedList.h"
+
+1541726252 e:\practica_final_2018\utn.h
+
+1544482636 e:\practica_final_2018\linkedlist.h
+
+1544385810 e:\practica_final_2018\parser.h
+	"LinkedList.h"
+
+1544550894 source:e:\practica_final_2018\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"reglasNegocio.h"
+	"utn.h"
+	"LinkedList.h"
+	"Parser.h"
+	"Controller.h"
+
+1544548368 e:\practica_final_2018\controller.h
+	"reglasNegocio.h"
+	"LinkedList.h"
+
+1544385810 source:e:\practica_final_2018\parser.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"reglasNegocio.h"
+	"utn.h"
+	"LinkedList.h"
+
+1544550976 source:e:\practica_final_2018\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"reglasNegocio.h"
+	"Controller.h"
+	"PARSER.H"
+
+1544550976 source:e:\practica_final_2018\reglasnegocio.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"reglasNegocio.h"
+	"utn.h"
+	"LinkedList.h"
+
+1541801378 source:e:\practica_final_2018\utn.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+
